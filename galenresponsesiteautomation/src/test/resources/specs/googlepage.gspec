@@ -1,0 +1,17 @@
+@objects
+    image-id        id     lga
+    input-id        id     lst-ib
+
+
+
+= Content =
+    @on *
+
+        image-id:
+            above input-id 0 to 10px
+
+
+    @on desktop
+        input-id :
+            height < 69px
+            below image-id ~ 1px

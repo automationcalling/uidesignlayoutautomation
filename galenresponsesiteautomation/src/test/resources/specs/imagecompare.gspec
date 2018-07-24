@@ -1,0 +1,10 @@
+@objects
+  # Google logo
+  googleLogo   css     #hplogo
+
+= Page: Google Home page =
+  @on desktop
+
+      googleLogo:
+        visible
+        image file google_logo.png, error 15px
